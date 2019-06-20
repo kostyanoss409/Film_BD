@@ -1,12 +1,17 @@
 #pragma once
-//#include <string>
+#include <string>
 #include <iostream>
 using namespace std;
 struct Film
 {
-	char name[50];
-	char directed_by[50];
-	char country[50];
+	//char name[50];
+	//char directed_by[50];
+	//char country[50];
+	//int year;
+	//int censor;
+	string name;
+	string directed_by;
+	string country;
 	int year;
 	int censor;
 };
